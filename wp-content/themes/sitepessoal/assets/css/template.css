@@ -1,0 +1,97 @@
+body {
+  background-color: #EEE;
+}
+.half_bg {
+  background-color: #00FF00;
+  height: 300px;
+}
+header {
+  margin-top: -300px;
+  color: #FFF;
+}
+.social_area {
+  display: flex;  
+}
+.social_button {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 2px #383a38fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_button:hover {
+  background-color: rgba(51, 48, 48, 0.5);
+}
+.social_button a,
+.social_button2 a {
+  display: block;
+  flex: 1;
+  text-align: center;
+}
+.social_button img {
+  width: 20px;
+  height: 20px;
+}
+
+.social_area2 {
+  background-color: #00FF00;
+}
+.social_button2 img {
+  width: 25px;
+  height: 25px;
+}
+.social_button2 {
+  flex: 1;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_height {
+  margin-top: 30px;
+}
+.body_top {
+  background-color: #FFF;
+  margin-top: 30px;
+  box-shadow: 2px 2px 2px #CCC;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.avatar {
+  width: 100%;
+  height: auto;
+  border: 1px solid #CCC;
+}
+.welcome_box {
+  background-color: #00FF00;
+  padding: 5px 10px;
+  display: inline-block;
+  color: #FFF;
+}
+.welcome_name {
+  font-size: 27px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.welcome_name span {
+  color: #00FF00;
+  font-weight: bold;
+}
+.welcome_desc {
+  font-size: 15px;
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.user_info {
+  flex: 1;
+}
+.social_area2 {
+  height: 50px;
+}
+.user_info td {
+  padding: 5px 0px;
+}
